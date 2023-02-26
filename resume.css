@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: rgba(245, 148, 92, 0.61);
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 60px;
+}
+
+.info{
+    background-color: rgba(150, 135, 135, 0.466);
+    margin-left: 15px;
+    padding-left: 8px;
+    border-left: 3px solid black;
+    padding-bottom: 5px;
+    display: inline-block;
+    position: absolute;
+   
+    
+
+    
+}
+.info p{
+    margin: 2px;
+}
+
+.info a{
+    text-decoration: italic;
+    color: rgb(163, 118, 63) ;
+  
+    
+}
+
+.info a:hover{
+    background-color: rgba(240, 141, 105, 0.726);
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.contact {
+    background-color: rgba(150, 135, 135, 0.466);
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-left: 3px solid black;
+}
+.contact h2{
+    margin-bottom: 3px;
+}
+
+.btn{
+    background-color: black;
+    color: brown;
+    text-decoration: none;
+    font-family: inherit;
+    margin-left: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.btn:hover{
+    color: rgba(214, 115, 79, 0.829);
+    opacity: 0.8;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+
+.hobi ol{
+    padding-left: 25px;
+    background-color: rgba(167, 243, 243, 0.63);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+        
+}
+
+.hobi li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+.hobi h2{
+    margin-bottom: 5px;
+}
+
+
+.mesage h2{
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.mesage input, textarea{
+    border:none;
+    margin-bottom: 18px;
+    outline-color: rgba(125, 210, 236, 0.719);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+   
+}
+.mesage label{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+   
+}
+
+.mesage{
+    background-color: rgba(150, 135, 135, 0.466);
+}
+
+.mesage .btn{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
